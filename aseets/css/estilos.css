@@ -31,6 +31,9 @@ body header .menu .contenedor-menu nav ul li a {
   text-decoration: none;
   color: #000000;
 }
+body header .menu .contenedor-menu nav ul li :hover {
+  border-bottom: 2px solid red;
+}
 
 body #intro {
   font-family: "Oswald";
@@ -44,6 +47,23 @@ body #intro .izquierda {
   width: 70%;
   padding: 65px 75px;
   margin-right: 20px;
+}
+body #intro .izquierda p {
+  font-size: 14px;
+  letter-spacing: 18px;
+}
+body #intro .izquierda h1 {
+  font-size: 56px;
+  font-weight: 100;
+}
+body #intro .izquierda a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 7px;
+  border-bottom: 2px solid red;
+  padding-bottom: 13px;
+  padding: 0 18px 13px 10px;
 }
 body #intro .derecha {
   border: 1px solid #DBDBDB;
@@ -62,6 +82,7 @@ body #intro .derecha .contenido .foto-nombre {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  font-weight: 400;
 }
 body #intro .derecha .contenido .foto-nombre .nombre {
   margin-bottom: 20px;
@@ -76,7 +97,7 @@ body #intro .derecha .contenido .foto-nombre img {
   border-radius: 50%;
 }
 body #intro .derecha .contenido p {
-  text-align: center;
+  vertical-align: baseline;
 }
 
 /*# sourceMappingURL=estilos.css.map */
