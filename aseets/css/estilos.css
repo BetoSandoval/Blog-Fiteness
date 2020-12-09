@@ -33,14 +33,12 @@ body header .menu .contenedor-menu nav ul li a {
 }
 
 body #intro {
-  background-color: rgba(255, 255, 255, 0.85);
   font-family: "Oswald";
   display: flex;
   max-width: 1280px;
   margin: auto;
 }
 body #intro .izquierda {
-  background: url(../imagenes/intro.jpg);
   background-size: cover;
   background-position: center;
   width: 70%;
@@ -80,10 +78,5 @@ body #intro .derecha .contenido .foto-nombre img {
 body #intro .derecha .contenido p {
   text-align: center;
 }
-
-/** Variables de color **/
- *  $white: #fff 
- *  $rgba1: #ffffffd9
- *  $rgba2: rgba(255,255 ,255 ,0.85 ) */
 
 /*# sourceMappingURL=estilos.css.map */

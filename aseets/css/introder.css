@@ -1,0 +1,20 @@
+body #intro .izquierda{
+    background-image: 
+    linear-gradient(
+        rgba(255,255 ,255 ,0.85 ),
+        rgba(255,255 ,255 ,0.85 )
+    ),
+    url(../imagenes/intro.jpg);
+}
+
+
+
+
+
+
+/* {
+    background-image:
+    linear-gradient(
+        rgba(255,255 ,255 ,0.85 )),
+        url(../imagenes/intro.jpg)
+} */
