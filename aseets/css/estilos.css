@@ -37,28 +37,28 @@ body header .menu .contenedor-menu nav ul li :hover {
   border-bottom: 2px solid red;
 }
 
-body #intro {
+body .intro {
   font-family: "Oswald";
   display: flex;
   max-width: 1280px;
   margin: auto;
 }
-body #intro .izquierda {
+body .intro .izquierda {
   background-size: cover;
   background-position: center;
   width: 70%;
   padding: 65px 75px;
   margin-right: 20px;
 }
-body #intro .izquierda p {
+body .intro .izquierda p {
   font-size: 14px;
   letter-spacing: 18px;
 }
-body #intro .izquierda h1 {
+body .intro .izquierda h1 {
   font-size: 56px;
   font-weight: 100;
 }
-body #intro .izquierda a {
+body .intro .izquierda a {
   text-decoration: none;
   color: #000000;
   font-size: 20px;
@@ -67,18 +67,18 @@ body #intro .izquierda a {
   padding-bottom: 13px;
   padding: 0 18px 13px 10px;
 }
-body #intro .derecha {
+body .intro .derecha {
   border: 1px solid #DBDBDB;
   padding: 30px 20px;
   width: 16%;
   height: 500px;
   background: red;
 }
-body #intro .derecha .contenido {
+body .intro .derecha .contenido {
   color: #ffffff;
   font-weight: 350;
 }
-body #intro .derecha .contenido .foto-nombre {
+body .intro .derecha .contenido .foto-nombre {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -86,19 +86,19 @@ body #intro .derecha .contenido .foto-nombre {
   margin-bottom: 20px;
   font-weight: 400;
 }
-body #intro .derecha .contenido .foto-nombre .nombre {
+body .intro .derecha .contenido .foto-nombre .nombre {
   margin-bottom: 20px;
   color: #000000;
   font-size: 25px;
 }
-body #intro .derecha .contenido .foto-nombre img {
+body .intro .derecha .contenido .foto-nombre img {
   vertical-align: top;
   width: 105px;
   height: 105px;
   border: 5px;
   border-radius: 50%;
 }
-body #intro .derecha .contenido p {
+body .intro .derecha .contenido p {
   vertical-align: baseline;
 }
 
