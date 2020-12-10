@@ -100,4 +100,21 @@ body #intro .derecha .contenido p {
   vertical-align: baseline;
 }
 
+body .posts {
+  max-width: 1280px;
+  width: 70%;
+  margin: auto;
+}
+body .posts h2 {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+body .posts .posts-contenido {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 /*# sourceMappingURL=estilos.css.map */
