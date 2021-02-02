@@ -31,6 +31,12 @@ body header .menu .contenedor-menu .logo {
   font-size: 23px;
   font-weight: bold;
 }
+body header .menu .contenedor-menu .icono {
+  color: #000000;
+  font-size: 23px;
+  font-weight: bold;
+  display: none;
+}
 body header .menu .contenedor-menu nav {
   margin: 15px;
 }
@@ -164,10 +170,13 @@ body footer .redes a {
 }
 
 @media screen and (max-width: 1024px) {
+  body header .menu .contenedor-menu .icono {
+    display: inline;
+  }
   body header .menu .contenedor-menu nav {
     position: absolute;
     left: 0;
-    top: 8%;
+    top: 10%;
     width: 100%;
     background: #000000;
     display: none;
