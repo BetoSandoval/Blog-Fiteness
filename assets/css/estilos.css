@@ -178,6 +178,7 @@ body footer .redes a {
     left: 0;
     top: 10%;
     width: 100%;
+    margin: 0;
     background: #000000;
     display: none;
   }
