@@ -6,14 +6,16 @@ console.log(verMenu);
 // Funciones
 
 //Despliega menu
-const desplegarMenu = menuIcono.addEventListener('click', () => {
-    verMenu.style.display === 'none' ? desplegar() : contraer(); 
-});
-
-const desplegar = () => {
-    verMenu.style.display = 'inline';
-}
-
-const contraer = () => {
-    verMenu.style.display = 'none';
+if(screen.width <= 1025){
+    const desplegarMenu = menuIcono.addEventListener('click', () => {
+        verMenu.style.display === 'none' ? desplegar() : contraer(); 
+    });
+    
+    const desplegar = () => {
+        verMenu.style.display = 'inline';
+    }
+    
+    const contraer = () => {
+        verMenu.style.display = 'none';
+    }
 }
